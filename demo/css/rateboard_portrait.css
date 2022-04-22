@@ -1,0 +1,92 @@
+﻿body {
+    background: #c6202e;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+header {
+    display: block;
+    margin: 10px 0;
+}
+
+.application-title {
+    font-weight: 600;
+    font-size: 4.6vw;
+    color: rgb(210, 172, 103);
+}
+
+.application-title span {
+    display: block;
+    font-weight: 300 !important;
+    font-size: 1.6vw !important;
+}
+
+.body-container {
+    background: #353c46;
+    -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+}
+
+table.currency-table thead td {
+    font-size:  2.85vw;
+    color: #fff;
+    font-weight: bold;
+}
+
+table td {
+    font-size: 1.85vw;
+    color: #fff;
+    font-weight: bold;
+}
+
+table.currency-table tbody td {
+    font-size:2.85vw;
+    color: #fff;
+    font-weight: bold;
+}
+
+table.currency-table tbody tr {
+    background: #161616;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: 10px solid #353c46;
+}
+
+.btn-money-transfer {
+    font-size: 2.0vw;
+    color: #fff;
+    font-weight: bold;
+    width: 300px;
+    padding: 20px;
+    -webkit-box-shadow: inset 0px 0px 31px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 31px -2px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 31px -2px rgba(0,0,0,0.75);
+    background: #ddd;
+    color: #c6202e;
+}
+
+.logo {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.datewrapper {
+    float: right;
+    color: #fff;
+    text-align: center;
+}
+
+.tbl-payout ul {
+    list-style: none;
+}
+
+    .tbl-payout ul li {
+        float: left;
+        margin-right: 20px;
+    }
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+}

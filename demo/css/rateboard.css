@@ -1,0 +1,104 @@
+﻿body {
+    background: #c6202e;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+header {
+    display: block;
+    margin: 10px 0;
+}
+
+.application-title {
+    font-weight: 600;
+    font-size: 4.6vw;
+    color: rgb(210, 172, 103);
+}
+
+    .application-title span {
+        display: block;
+        font-weight: 300 !important;
+        font-size: 1.6vw !important;
+    }
+
+.body-container {
+    background: #353c46;
+    -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+}
+
+table.currency-table thead td {
+    font-size: 1.75vw;
+    color: #fff;
+    font-weight: bold;
+     text-shadow: -1px 2px 6px #000;
+}
+
+table td {
+    font-size: 2vw;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+table.currency-table tbody td {
+    font-size: 2.0vw;
+    color: #fff;
+    font-weight: bold;
+}
+
+table.currency-table tbody tr {
+    background: #161616;
+   
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: 10px solid #353c46;
+}
+
+.btn-money-transfer {
+    font-size: 2.0vw;
+    color: #fff;
+    font-weight: bold;
+
+    padding: 20px;
+
+    background: url(../images/marquee.png);
+ 
+   line-height: 1;
+      width: 244px;
+    height: 95px;
+}
+
+.logo {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.datewrapper {
+    float: right;
+    color: #fff;
+    text-align: center;
+}
+
+.tbl-payout ul {
+    list-style: none;
+    float: left;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.tbl-payout ul li {
+    float: left;
+    margin-right: 38px;
+    font-size: 1.7vw;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+}
+
+
+.marquee-wrapper{ width: 100%; overflow: hidden}

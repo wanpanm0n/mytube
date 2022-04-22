@@ -1,0 +1,47 @@
+body{
+	background: #4F4F4F;
+}
+.navbar>ul> li > a, .navbar .navbar-brand {
+background-color: transparent;
+color: #fff !important;
+}
+.navbar-default {
+background-color: #4F4F4F;
+border-color: transparent;
+}
+.navbar-static-top, .panel-default>.panel-heading,
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	border-radius: 0px;
+	background: #c8202e !important;
+	color: #fff !important;
+	border-color: #c8202e !important;
+}
+.sidebar ul li a.active {
+background-color: #ce202e;
+box-shadow: 0px 0px 0px;
+border: 0;
+position: relative;
+}
+.sidebar ul li a.active::after {
+content: "";
+left: 93%;
+/* top: 50%; */
+border: solid transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+border-color: rgba(136, 183, 213, 0);
+border-right-color: #fff;
+border-width: 10px;
+/* margin-top: -10px; */
+}
+.sidebar-nav ul li {
+border-bottom: 1px solid rgb(63, 63, 63);
+box-shadow: rgb(89, 89, 89) 0px 1px 2px;
+background-color: rgb(100, 93, 93);
+}
+.sidebar-nav ul li a {
+color: rgb(255, 255, 255);
+}
