@@ -1,3 +1,4 @@
+CODE_CHANGES = getGitChanges()
 pipeline {
 	
 	agent any
@@ -5,7 +6,11 @@ pipeline {
   stages {
 
     stage("build") {
-      
+      when {
+          expression {
+	      BRANCH_NAME == 'main' && CODE_CHANGES == true
+	      }
+	  }
       steps {
  	echo 'building'
 
@@ -13,12 +18,16 @@ pipeline {
      }
 
      stage("test") {
+        when {
+	    expression {
+	        BRANH_NAME == 'main'
 	steps {
         	echo 'Testing'
 
 	}
      }
-
+}
+}
      stage("build and deploy") {
 
        steps {
@@ -33,5 +42,7 @@ pipeline {
      }
      sucess{
      echo "success block"
+     }
 
+}
 }
