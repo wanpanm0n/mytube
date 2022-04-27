@@ -29,4 +29,11 @@ pipeline {
 	}
      }
   }
+  post {
+     always {
+     echo "always"
+     }
+     sucess{
+     echo "success block"
+
 }
